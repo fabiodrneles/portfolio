@@ -1,4 +1,5 @@
 //  data
+/*
 const aboutData = [
   {
     title: 'skills',
@@ -69,6 +70,8 @@ const aboutData = [
     ],
   },
 ];
+*/
+
 
 const About = () => {
   return <div>About</div>;
