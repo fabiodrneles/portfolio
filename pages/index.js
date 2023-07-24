@@ -1,3 +1,5 @@
+// next image
+
 const Home = () => {
   return <div>Home</div>;
 };
