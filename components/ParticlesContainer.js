@@ -17,7 +17,7 @@ const ParticlesContainer = () => {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        fullScreen: { enable: false },
+        fullScreen: { enable: true },
         background: {
           color: {
             value: '',
@@ -27,17 +27,17 @@ const ParticlesContainer = () => {
         interactivity: {
           events: {
             onClick: {
-              enable: false,
+              enable: true,
               mode: 'push',
             },
             resize: true,
           },
           modes: {
             push: {
-              quantity: 90
+              quantity: 20,
             },
             repulse: {
-              distance: 200,
+              distance: 20,
               duration: 0.4,
             },
           },
